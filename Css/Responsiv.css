@@ -1,0 +1,122 @@
+
+@media(max-width:991px){
+    .text-content{
+        width: 100%;
+    }
+
+    .navbar-brand img{
+        height: 3.8125rem;
+    }
+
+    .navigaion-wrap{
+        text-align: center;
+        background-color: white;
+    }
+
+    .navigaion-wrap .nav-link{
+        line-height: 1.875rem;
+        margin-top: 5px;
+    }
+
+    .nav-itam a{
+        border-radius: 10px;
+    }
+
+    .navigaion-wrap .nav-itam a:hover{
+        background-color: red;
+    }
+
+    .nav-collapse ul li:last-child{
+        margin-top: 5px;
+    }
+
+    .top-branr{
+        padding: 9.375rem 3rem 0.9.375rem;
+       }
+
+}
+
+
+
+
+@media(max-width:767px){
+  h1{
+    font-size: 2.8rem;
+   }
+
+   h2{
+    font-size: 2rem;
+   }
+
+   .top-branr{
+    padding: 10.875rem 0 9.975rem;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:330px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

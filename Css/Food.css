@@ -1,0 +1,300 @@
+
+
+
+*,*:after,*::before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,:hover,:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+
+a,a:hover{
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: var(--primary-color)!important;
+}
+
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* h1{
+    background-color: red !important;
+}
+
+
+h1{
+    background-color: blue;
+} */
+
+
+:root{
+    --primary-color:#A82c48;
+    --secondary-color:#43121b;
+    --third-color:#f98169;
+    --white-color:#fff;
+    --text-color:#555;
+    --text-geay:#999;
+    --black-color:#000;
+    --primary-font:'Roboto',
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 300;
+}
+
+
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    /* color: var(--secondary-color); */
+    text-shadow: 2px 2px 2px grey;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 2.23rem;
+    text-transform: capitalize;
+    font-family: var(--primary-font);
+}
+
+
+
+h4{
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+h5{
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+p{
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.75rem;
+}
+
+
+.main-btn{
+    display: inline-block;
+    padding: 0.62rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    color: var(--white-color);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgba(46,46,46,0.5);
+    
+}
+
+
+
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+
+
+.white-btn{
+   padding: 0.62rem 1.875rem;
+   line-height: 25px;
+   background-color: var(--white-color);
+   border: 0.1875rem solid var(--white-color);
+   color: var(--text-color);
+   font-size: 0.9375rem;
+   font-weight: 400;
+   text-transform: capitalize;
+   box-shadow: 0px 2px 10px -1px rgb(0 0 0/13%);
+  
+}
+
+
+
+.white-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+
+
+.Wrapper{
+    padding-top: 8.25rem;
+    padding-bottom: 2.25;
+}
+
+
+.text-content{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2{
+    color: var(--white-color);
+}
+
+/* =============================================================================================================================== */
+
+
+.navigaion-wrap{
+position: fixed;
+top: 0;
+left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3 ease-out;
+  /* background: #a8c0ff;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  */ 
+/* background: linear-gradient(to right, #3f2b96, #a8c0ff);  */
+box-shadow: 2px 2px 2px gray;
+}
+
+.navigaion-wrap img{
+    border-radius: 50%;
+}
+
+
+.navigaion-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+
+.navbar-toggler:focus{
+   outline: unset;
+   border: unset;
+   box-shadow: none;
+}
+
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+
+.navigaion-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+
+
+ .navigaion-wrap.scroll-on{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: white;
+     box-shadow: 2px 2px 2px grey;
+}
+
+/* ================================================================ haeder end------------------------------------------------------- */
+
+
+
+.top-branr{
+  width: 100%;
+  background-image: url("../Img/spaghetti-1932466_640.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2.875rem 0 0.175rem;
+}
+
+
+
+.counter-section{
+    background-color: var(--primary-color);
+    padding: 2.5rem 0;
+}
+
+
+.counter-section p{
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
